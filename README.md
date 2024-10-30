@@ -40,13 +40,13 @@ This app scans QR codes using the device's camera and displays the scanned conte
    ```bash
    flutter run
 
-Usage
-Open the app to start the camera and position the QR code within the scan frame.
-Once scanned, the result will appear at the bottom.
+## Usage
+-Open the app to start the camera and position the QR code within the scan frame.
+-Once scanned, the result will appear at the bottom.
 You can:
-Copy the result to the clipboard.
-Open the URL in your browser (if the QR code is a URL).
-Code Structure
+-Copy the result to the clipboard.
+-Open the URL in your browser (if the QR code is a URL).
+## Code Structure
 main.dart: Contains the main structure of the application and scanning logic.
 QR Controller: Manages the flow of scanned data and action buttons.
 Scan Animation: Uses a timer to move a scan line vertically for visual guidance.
@@ -56,5 +56,5 @@ Contributions are welcome. If you would like to improve functionality or fix bug
 License
 This project is licensed under the MIT License.
 
-Este archivo es compatible con GitHub y sigue los estándares comunes de documentación.
+
 
