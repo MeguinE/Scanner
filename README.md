@@ -1,16 +1,35 @@
-# codescane
+# QR Scanner App
 
-A new Flutter project.
+**QR Code Scanning Application in Flutter**
 
-## Getting Started
+## Description
 
-This project is a starting point for a Flutter application.
+This app scans QR codes using the device's camera and displays the scanned content on the screen. Users can **copy** the result to the clipboard or **open** a link if the QR code content is a URL.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **QR Code Scanning** using the device’s camera.
+- **Scan Line Animation** to guide the user.
+- **Copy and Open URL Options** for scanned results.
+- **Confirmation Messages** when copying to the clipboard or trying to open a URL.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies
+
+- **Flutter** for the user interface.
+- **Dart** as the programming language.
+- **qr_code_scanner** to integrate QR code scanning functionality.
+- **url_launcher** to open URLs in the browser or other apps.
+
+## Installation
+
+### Prerequisites
+
+- **Flutter** installed on your machine ([Installation Guide](https://flutter.dev/docs/get-started/install))
+- A mobile device or emulator with a functional camera
+
+### Setup Steps
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your_username/qr_scanner_app.git
+   cd qr_scanner_app
